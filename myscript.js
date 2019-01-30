@@ -61,7 +61,9 @@ $(function() {
 
     alert($("#name").val()); // get the value of the input
 
-    
+    // before and after
+    $("#demo").before("<i>Some Title</i>");
+    $("#demo").after("<b>Welcome</b>");
 
 
 
