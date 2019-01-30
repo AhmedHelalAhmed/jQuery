@@ -152,6 +152,10 @@ $(function() {
     alert("clicked");
    });
 
-
+   // remove event handlers
+   $("div").on("click", function() { 
+    alert('Hi there!'); 
+    }); 
+    $("div").off("click");
 
 });
