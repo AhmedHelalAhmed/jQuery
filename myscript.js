@@ -185,6 +185,49 @@ $(function() {
     });
     $("div").trigger("click");
 
+    // Effects
+    $("p").click(function() {
+        $("div").toggle(1000);
+    });
+
+    $("p").click(function() {
+        $("div").fadeToggle(1000);
+    });
+
+    $("p").click(function() {
+        $("div").slideToggle(500);
+    });
+
+    $("p").click(function() {
+        $("div").slideDown(500);
+    });
+
+    $("p").click(function() {
+        $("div").slideUp(500);
+    });
+
+    $("div").click(function() {
+        $("div").animate({width: '250px'}, 1000);
+    });
+
+    // To stop an animation before it is finished,
+    // jQuery provides the stop() method.
+
+    $("div").animate({
+        width: '+=250px',
+        height: '+=250px'
+      }, 1000);
+
+
+
+
+    var div = $("div");
+    div.animate({opacity: 1});
+    div.animate({height: '+=100px', width: '+=100px', top: '+=100px'}, 500);
+    div.animate({height: '-=100px', width: '-=100px', left: '+=100px'}, 500);
+    div.animate({height: '+=100px', width: '+=100px', top: '-=100px'}, 500);
+    div.animate({height: '-=100px', width: '-=100px', left: '-=100px'}, 500);
+    div.animate({opacity: 0.5});
 
 
 
