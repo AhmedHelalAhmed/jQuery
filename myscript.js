@@ -13,8 +13,12 @@ $(function() {
     // change the text content you can not put html tags
     $("#start").text("Go!"); 
 
-    
+    // Selectors
+    $("div")  // selects all <div> elements
 
+    $("#test") // select the element with the id="test"
+
+    $(".menu") //selects all elements with class="menu"
 
 
 
