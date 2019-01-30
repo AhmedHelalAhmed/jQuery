@@ -59,6 +59,9 @@ $(function() {
 
     $(":text"); // all input elements with type = "text"
 
+    alert($("#name").val()); // get the value of the input
+
+    
 
 
 
