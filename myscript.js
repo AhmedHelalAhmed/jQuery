@@ -70,6 +70,11 @@ $(function() {
     $("#demo").after(txt);
 
 
+    // add and remove class
+    $("div").addClass("header");
+    $("div").addClass("class1 class2 class3");
+    $("div").removeClass("class1");
+
 
 
 
