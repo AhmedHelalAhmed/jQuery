@@ -178,6 +178,12 @@ $(function() {
     event.preventDefault();
     });
 
+    // Trigger Events
+
+    $("div").click(function () {
+        alert("Clicked!");
+    });
+    $("div").trigger("click");
 
 
 
