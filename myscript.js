@@ -108,6 +108,12 @@ $(function() {
 
     var e = $("p").parents();
     e.css("border", "2px solid red");
+
+    // empty, remove and hide
+    $("div").empty();
+    $("span").remove();
+    $("h3").empty();
+
     
 
 });
