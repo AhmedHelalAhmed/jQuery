@@ -84,6 +84,8 @@ $(function() {
     // css function
     alert($("p").css("background-color"));
     $("p").css("background-color", "blue");
+    $("p").css({"background-color": "red", "font-size": "200%"});//json
+
 
 
 
