@@ -75,8 +75,10 @@ $(function() {
     $("div").addClass("class1 class2 class3");
     $("div").removeClass("class1");
 
-
-
+    // toggleclass
+    $("button").click(function() {
+        $("p").toggleClass("red");
+    });
 
 
 });
