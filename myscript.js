@@ -87,6 +87,19 @@ $(function() {
     $("p").css({"background-color": "red", "font-size": "200%"});//json
 
 
+    //  Dimensions
+    $("div").css("background-color", "red");
+    $("div").width(100);//px
+    $("div").height(100);
+    var txt = "";
+    txt += "width: " + $("div").width() + " ";
+    txt += "height: " + $("div").height() + "<br/>";
+    txt += "innerWidth: " + $("div").innerWidth() + " ";
+    txt += "innerHeight: " + $("div").innerHeight() + "<br/>";
+    txt += "outerWidth: " + $("div").outerWidth() + " ";
+    txt += "outerHeight: " + $("div").outerHeight();
+    $("div").html(txt);
+
 
 
 });
