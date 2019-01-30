@@ -114,6 +114,12 @@ $(function() {
     $("span").remove();
     $("h3").empty();
 
-    
+
+    // Handling Events
+    $("#demo").click(function() {
+        $("body").html(Date());
+    });
+
+
 
 });
