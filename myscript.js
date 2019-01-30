@@ -120,6 +120,38 @@ $(function() {
         $("body").html(Date());
     });
 
+    // Common Events
+    $("#name").keydown(function() {
+        $("#msg").html($("#name").val());
+    });
+    /*
+        Mouse Events:
+        click occurs when an element is clicked.
+        dblclick occurs when an element is double-clicked.
+        mouseleave occurs when the mouse pointer leaves the selected element.
+        mouseenter occurs when the mouse pointer is over (enters) the selected element.
+        mouseover occurs when the mouse pointer is over the selected element.
+
+        Keyboard Events:
+        keydown occurs when a keyboard key is pressed down.
+        keyup occurs when a keyboard key is released.
+
+        Form Events:
+        submit occurs when a form is submitted.
+        change occurs when the value of an element has been changed.
+        focus occurs when an element gets focus.
+        blur occurs when an element loses focus.
+
+        Document Events: 
+        ready occurs when the DOM has been loaded.
+        resize occurs when the browser window changes size.
+        scroll occurs when the user scrolls in the specified element.
+    */
+    // add two events 
+   $( "p" ).on( "click dblclick", function() {
+    alert("clicked");
+   });
+
 
 
 });
