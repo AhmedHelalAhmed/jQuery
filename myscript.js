@@ -87,7 +87,7 @@ $(function() {
     $("p").css({"background-color": "red", "font-size": "200%"});//json
 
 
-    //  Dimensions
+    // Dimensions
     $("div").css("background-color", "red");
     $("div").width(100);//px
     $("div").height(100);
@@ -101,5 +101,13 @@ $(function() {
     $("div").html(txt);
 
 
+     
+    // DOM Traversal
+    var e = $("p").parent();
+    e.css("border", "2px solid red");
+
+    var e = $("p").parents();
+    e.css("border", "2px solid red");
+    
 
 });
